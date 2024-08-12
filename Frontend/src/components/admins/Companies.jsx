@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
 import Navbar from "../shared/NavBar.jsx";
 import { Input } from "../ui/input.jsx";
