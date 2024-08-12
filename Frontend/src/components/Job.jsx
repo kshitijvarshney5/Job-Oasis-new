@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import { Bookmark } from "lucide-react";
-import { Button } from "./ui/button";
-import { Avatar, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
+import { Button } from "./ui/button.jsx";
+import { Avatar, AvatarImage } from "./ui/avatar.jsx";
+import { Badge } from "./ui/badge.jsx";
 import { useNavigate } from "react-router-dom";
 
 const Job = ({ job }) => {

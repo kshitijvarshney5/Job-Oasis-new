@@ -1,5 +1,5 @@
-import { setSearchedQuery } from "@/redux/jobSlice";
-import { Button } from "./ui/button";
+import { setSearchedQuery } from "@/redux/jobSlice.js";
+import { Button } from "./ui/button.jsx";
 import {
   Carousel,
   CarouselContent,

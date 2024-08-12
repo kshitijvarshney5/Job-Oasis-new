@@ -2,15 +2,15 @@ import { Popover } from "../ui/popover";
 import { PopoverContent, PopoverTrigger } from "@radix-ui/react-popover";
 import nopersonImage from "./noperson.jpg";
 
-import { Avatar, AvatarImage } from "../ui/avatar";
-import { Button } from "../ui/button";
+import { Avatar, AvatarImage } from "../ui/avatar.jsx";
+import { Button } from "../ui/button.jsx";
 import { LogOut, User2 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "sonner";
-import { USER_API_END_POINT } from "@/utils/constant";
+import { USER_API_END_POINT } from "@/utils/constant.js";
 import axios from "axios";
-import { setUser } from "@/redux/authSlice";
+import { setUser } from "@/redux/authSlice.js";
 
 const NavBar = () => {
   const { user } = useSelector((store) => store.auth);

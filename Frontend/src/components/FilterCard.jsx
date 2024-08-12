@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Label } from "./ui/label";
-import { RadioGroup, RadioGroupItem } from "./ui/radio-group";
+import { Label } from "./ui/label.jsx";
+import { RadioGroup, RadioGroupItem } from "./ui/radio-group.jsx";
 import { useDispatch } from "react-redux";
-import { setSearchedQuery } from "@/redux/jobSlice";
+import { setSearchedQuery } from "@/redux/jobSlice.js";
 
 const fitlerData = [
   {

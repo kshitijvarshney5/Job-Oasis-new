@@ -4,16 +4,16 @@ import Login from "./components/auth/Login.jsx";
 import Signup from "./components/auth/Signup.jsx";
 import Home from "./components/Home.jsx";
 import Jobs from "./components/Jobs.jsx";
-import Browse from "./components/Browse";
-import Profile from "./components/Profile";
-import JobDescription from "./components/JobDescription";
-import Companies from "./components/admins/Companies";
-import CompanyCreate from "./components/admins/CompanyCreate";
-import CompanySetUp from "./components/admins/CompanySetUp";
-import AdminJobs from "./components/admins/AdminJobs";
-import PostJob from "./components/admins/PostJob";
-import Applicants from "./components/admins/Applicants";
-import ProtectedRoute from "./components/admins/ProtectedRoute";
+import Browse from "./components/Browse.jsx";
+import Profile from "./components/Profile.jsx";
+import JobDescription from "./components/JobDescription.jsx";
+import Companies from "./components/admins/Companies.jsx";
+import CompanyCreate from "./components/admins/CompanyCreate.jsx";
+import CompanySetUp from "./components/admins/CompanySetUp.jsx";
+import AdminJobs from "./components/admins/AdminJobs.jsx";
+import PostJob from "./components/admins/PostJob.jsx";
+import Applicants from "./components/admins/Applicants.jsx";
+import ProtectedRoute from "./components/admins/ProtectedRoute.jsx";
 
 const appRouter = createBrowserRouter([
   {

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import NavBar from "../shared/NavBar";
-import { Input } from "../ui/input";
-import { Label } from "../ui/label";
-import { Button } from "../ui/button";
+import NavBar from "../shared/NavBar.jsx";
+import { Input } from "../ui/input.jsx";
+import { Label } from "../ui/label.jsx";
+import { Button } from "../ui/button.jsx";
 import { Loader2 } from "lucide-react";
 import { useSelector } from "react-redux";
 import {

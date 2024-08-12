@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "../shared/NavBar.jsx";
-import { Input } from "../ui/input";
-import { Button } from "../ui/button";
+import { Input } from "../ui/input.jsx";
+import { Button } from "../ui/button.jsx";
 
 import { useNavigate } from "react-router-dom";
 

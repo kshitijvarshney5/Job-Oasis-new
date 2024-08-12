@@ -1,5 +1,5 @@
 import { MoreHorizontal } from "lucide-react";
-import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover.jsx";
 import {
   Table,
   TableBody,
@@ -8,7 +8,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../ui/table";
+} from "../ui/table.jsx";
 import { useSelector } from "react-redux";
 import { toast } from "sonner";
 import axios from "axios";

@@ -4,18 +4,19 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "./ui/dialog";
-import { Label } from "./ui/label";
-import { Input } from "./ui/input";
-import { Button } from "./ui/button";
+} from "./ui/dialog.jsx";
+import { Label } from "./ui/label.jsx";
+import { Input } from "./ui/input.jsx";
+import { Button } from "./ui/button.jsx";
 import { Loader2 } from "lucide-react";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
-import { USER_API_END_POINT } from "@/utils/constant";
-import { setUser } from "@/redux/authSlice";
+import { USER_API_END_POINT } from "@/utils/constant.js";
+import { setUser } from "@/redux/authSlice.js";
 import { toast } from "sonner";
 
+// eslint-disable-next-line react/prop-types
 const UpdateProfileDialog = ({ open, setOpen }) => {
   const [loading, setLoading] = useState(false);
 

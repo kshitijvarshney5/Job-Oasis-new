@@ -1,9 +1,9 @@
-import CategoryCarousel from "./CategoryCarousel";
-import Footer from "./shared/Footer";
-import HeroSection from "./HeroSection";
-import LatestJobs from "./LatestJobs";
-import NavBar from "./shared/NavBar";
-import useGetAllJobs from "@/hooks/useGetAllJobs";
+import CategoryCarousel from "./CategoryCarousel.jsx";
+import Footer from "./shared/Footer.jsx";
+import HeroSection from "./HeroSection.jsx";
+import LatestJobs from "./LatestJobs.jsx";
+import NavBar from "./shared/NavBar.jsx";
+import useGetAllJobs from "@/hooks/useGetAllJobs.jsx";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";

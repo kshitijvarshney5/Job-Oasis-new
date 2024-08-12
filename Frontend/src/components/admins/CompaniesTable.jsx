@@ -1,7 +1,7 @@
 import { Edit2, MoreHorizontal } from "lucide-react";
 import nopersonImage from "../shared/noperson.jpg";
-import { Avatar, AvatarImage } from "../ui/avatar";
-import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
+import { Avatar, AvatarImage } from "../ui/avatar.jsx";
+import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover.jsx";
 import {
   Table,
   TableBody,
@@ -10,7 +10,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../ui/table";
+} from "../ui/table.jsx";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
