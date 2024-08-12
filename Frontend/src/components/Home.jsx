@@ -3,10 +3,11 @@ import Footer from "./shared/Footer.jsx";
 import HeroSection from "./HeroSection.jsx";
 import LatestJobs from "./LatestJobs.jsx";
 import NavBar from "./shared/NavBar.jsx";
-import useGetAllJobs from "@/hooks/useGetAllJobs.jsx";
+
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import useGetAllJobs from "@/hooks/useGetAllJobs.jsx";
 
 const Home = () => {
   useGetAllJobs();
